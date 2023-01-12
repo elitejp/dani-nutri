@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0px 10px;
   width: 100%;
   height: 100px;
@@ -61,6 +61,8 @@ export const StyledHeader = styled.div`
   }
 
   @media (min-width: 1000px) {
+    justify-content: center;
+
     .hamburger-react {
       display: none;
     }
