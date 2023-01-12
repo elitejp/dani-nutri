@@ -36,7 +36,8 @@ export default createGlobalStyle`
     scroll-behavior: smooth;
   }
 
-  button, div, label, select, h1, h2, h3, h4, h5, h6, input {
+  button, div, label, select, h1, h2, h3, h4, h5, h6, input, nav, ul, li {
     font-family: var(--lexend);
+    color: var(--grey2);
   }
 `;
