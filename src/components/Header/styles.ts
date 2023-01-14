@@ -12,6 +12,7 @@ export const StyledHeader = styled.div`
   background-color: var(--ice);
 
   position: fixed;
+  z-index: 100;
 
   .hamburger-react {
     z-index: 999;
@@ -82,8 +83,14 @@ export const StyledContainerNotMobile = styled.div`
   display: none;
 
   padding: 10px;
+
   > li {
-    padding: 15px;
+    padding: 15px 20px;
+    font-size: 16px;
+
+    img {
+      margin: 0 5px;
+    }
   }
 
   @media (min-width: 1000px) {
@@ -92,5 +99,16 @@ export const StyledContainerNotMobile = styled.div`
     align-items: center;
 
     gap: 10px;
+  }
+
+  @media (min-width: 1400px) {
+    > li {
+      padding: 15px 20px;
+      font-size: 22px;
+
+      img {
+        margin: 0 5px;
+      }
+    }
   }
 `;

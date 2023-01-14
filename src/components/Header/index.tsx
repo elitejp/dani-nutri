@@ -25,11 +25,11 @@ const Header: React.FC = () => {
 
       <StyledContainerNotMobile>
         <li>Contato</li>
-        <StyledContainerNotMobile>
+        <li>
           <img src={instragram} alt="isntagram" />
           <img src={whatsapp} alt="whatsapp" />
           <img src={mail} alt="mail" />
-        </StyledContainerNotMobile>
+        </li>
       </StyledContainerNotMobile>
 
       <Hamburger toggled={isOpenMenu} toggle={setIsOpenMenu} />
