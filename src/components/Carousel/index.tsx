@@ -32,7 +32,7 @@ const Carousel: React.FC = () => {
       <div className="computerCountainer">
         <motion.div
           className="carouselToLeft"
-          animate={{ x: [0, 30, -10, 0] }}
+          animate={{ x: [10, 40, 0, 10] }}
           transition={{
             duration: 1,
             times: [0, 0.4, 0.8, 1],
@@ -65,7 +65,7 @@ const Carousel: React.FC = () => {
         </AnimatePresence>
         <motion.div
           className="carouselToRigth"
-          animate={{ x: [0, -30, 10, 0] }}
+          animate={{ x: [-10, -40, 0, -10] }}
           transition={{
             duration: 1,
             times: [0, 0.4, 0.8, 1],
